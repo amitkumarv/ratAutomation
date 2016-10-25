@@ -5,7 +5,7 @@ import java.util.Properties;
 
 public class PropertiesUtils {
 	
-	public static final String PROPERTY_BUILD_FILE = "D:\\workspace\\RAT6\\build.properties";
+	public static final String PROPERTY_BUILD_FILE = "D:\\workspace\\ratAutomation\\build.properties";
 	
 	public static String  getPropVal(String key) {
 		String propValue = null;
