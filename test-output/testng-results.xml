@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18998" started-at="2016-10-24T12:51:35Z" finished-at="2016-10-24T12:51:54Z">
+    <groups>
+      <group name="All">
+        <method signature="ClientsTest.testClientPagination()[pri:15, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testClientPagination" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="CoeTest.testCOEPagination()[pri:12, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testCOEPagination" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
+        <method signature="RoleMappingTest.testRolePagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testRolePagination" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="SkillTest.testCOEPagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testCOEPagination" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
+      </group> <!-- All -->
+      <group name="Pagination">
+        <method signature="ClientsTest.testClientPagination()[pri:15, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testClientPagination" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="CoeTest.testCOEPagination()[pri:12, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testCOEPagination" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
+        <method signature="RoleMappingTest.testRolePagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testRolePagination" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="SkillTest.testCOEPagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testCOEPagination" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
+      </group> <!-- Pagination -->
+    </groups>
+    <test name="Login" duration-ms="8818" started-at="2016-10-24T12:51:35Z" finished-at="2016-10-24T12:51:44Z">
+      <class name="com.icreon.res_allocqa.tests.LoginTest">
+        <test-method status="PASS" signature="testInit()[pri:0, instance:com.icreon.res_allocqa.tests.LoginTest@448ff1a8]" name="testInit" is-config="true" duration-ms="6417" started-at="2016-10-24T18:21:35Z" finished-at="2016-10-24T18:21:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.icreon.res_allocqa.tests.LoginTest@448ff1a8]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-10-24T18:21:42Z" finished-at="2016-10-24T18:21:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testLogin()[pri:1, instance:com.icreon.res_allocqa.tests.LoginTest@448ff1a8]" name="testLogin" duration-ms="2391" started-at="2016-10-24T18:21:42Z" finished-at="2016-10-24T18:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.icreon.res_allocqa.tests.LoginTest@448ff1a8]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-10-24T18:21:42Z" finished-at="2016-10-24T18:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.icreon.res_allocqa.tests.LoginTest.testLogin() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+      </class> <!-- com.icreon.res_allocqa.tests.LoginTest -->
+    </test> <!-- Login -->
+    <test name="Sorting Only" duration-ms="8536" started-at="2016-10-24T12:51:44Z" finished-at="2016-10-24T12:51:53Z">
+      <class name="com.icreon.res_allocqa.tests.admin.RoleMappingTest">
+        <test-method status="PASS" signature="testRolePagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testRolePagination" duration-ms="2019" started-at="2016-10-24T18:21:49Z" finished-at="2016-10-24T18:21:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRolePagination -->
+      </class> <!-- com.icreon.res_allocqa.tests.admin.RoleMappingTest -->
+      <class name="com.icreon.res_allocqa.tests.admin.SkillTest">
+        <test-method status="PASS" signature="testCOEPagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testCOEPagination" duration-ms="2442" started-at="2016-10-24T18:21:46Z" finished-at="2016-10-24T18:21:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCOEPagination -->
+      </class> <!-- com.icreon.res_allocqa.tests.admin.SkillTest -->
+      <class name="com.icreon.res_allocqa.tests.admin.ClientsTest">
+        <test-method status="PASS" signature="testClientPagination()[pri:15, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testClientPagination" duration-ms="2029" started-at="2016-10-24T18:21:51Z" finished-at="2016-10-24T18:21:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClientPagination -->
+      </class> <!-- com.icreon.res_allocqa.tests.admin.ClientsTest -->
+      <class name="com.icreon.res_allocqa.tests.admin.CoeTest">
+        <test-method status="PASS" signature="testCOEPagination()[pri:12, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testCOEPagination" duration-ms="2040" started-at="2016-10-24T18:21:44Z" finished-at="2016-10-24T18:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCOEPagination -->
+      </class> <!-- com.icreon.res_allocqa.tests.admin.CoeTest -->
+    </test> <!-- Sorting Only -->
+    <test name="LogOut" duration-ms="1609" started-at="2016-10-24T12:51:53Z" finished-at="2016-10-24T12:51:54Z">
+      <class name="com.icreon.res_allocqa.tests.LogoutTest">
+        <test-method status="PASS" signature="runBeforeSuit()[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@402e37bc]" name="runBeforeSuit" is-config="true" duration-ms="7" started-at="2016-10-24T18:21:35Z" finished-at="2016-10-24T18:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeSuit -->
+        <test-method status="PASS" signature="testInit()[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@402e37bc]" name="testInit" is-config="true" duration-ms="0" started-at="2016-10-24T18:21:53Z" finished-at="2016-10-24T18:21:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@402e37bc]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-10-24T18:21:53Z" finished-at="2016-10-24T18:21:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@402e37bc]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-10-24T18:21:53Z" finished-at="2016-10-24T18:21:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.icreon.res_allocqa.tests.LogoutTest.testLogout() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="testLogout()[pri:100, instance:com.icreon.res_allocqa.tests.LogoutTest@402e37bc]" name="testLogout" duration-ms="1607" started-at="2016-10-24T18:21:53Z" finished-at="2016-10-24T18:21:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@402e37bc]" name="quitBrowser" is-config="true" duration-ms="1795" started-at="2016-10-24T18:21:54Z" finished-at="2016-10-24T18:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.icreon.res_allocqa.tests.LogoutTest -->
+    </test> <!-- LogOut -->
+  </suite> <!-- Suite -->
+</testng-results>

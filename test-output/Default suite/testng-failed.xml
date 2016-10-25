@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.icreon.res_allocqa.tests.admin.CoeTest">
+        <methods>
+          <include name="handleTestMethodName"/>
+          <include name="testSearchByStatusActive"/>
+          <include name="testSearchByCOEName"/>
+          <include name="runBeforeSuit"/>
+          <include name="testSearchByStatusAInative"/>
+          <include name="quitBrowser"/>
+          <include name="beforeClass"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.icreon.res_allocqa.tests.admin.CoeTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

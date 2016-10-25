@@ -1,0 +1,682 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/40</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 20 14:31:56 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>47 seconds (47262 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.beforeClass()'><b>beforeClass</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td><div><pre>org.testng.SkipException: Skipping Test Logout
+	at com.icreon.res_allocqa.tests.admin.CoeTest.beforeClass(CoeTest.java:42)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1620529408", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1620529408'><pre>org.testng.SkipException: Skipping Test Logout
+	at com.icreon.res_allocqa.tests.admin.CoeTest.beforeClass(CoeTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.beforeClass()'><b>beforeClass</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td><div><pre>org.testng.SkipException: Skipping Test Logout
+	at com.icreon.res_allocqa.tests.admin.SkillTest.beforeClass(SkillTest.java:67)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace473666452", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace473666452'><pre>org.testng.SkipException: Skipping Test Logout
+	at com.icreon.res_allocqa.tests.admin.SkillTest.beforeClass(SkillTest.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.beforeClass()'><b>beforeClass</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td><div><pre>org.testng.SkipException: Skipping Test Logout
+	at com.icreon.res_allocqa.tests.admin.RoleMappingTest.beforeClass(RoleMappingTest.java:51)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1806880779", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1806880779'><pre>org.testng.SkipException: Skipping Test Logout
+	at com.icreon.res_allocqa.tests.admin.RoleMappingTest.beforeClass(RoleMappingTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.handleTestMethodName()'><b>handleTestMethodName</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.ClientsTest.navigateToClients()'><b>navigateToClients</b><br>Test class: com.icreon.res_allocqa.tests.admin.ClientsTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.ClientsTest@a4102b8</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.ClientsTest.testAddClient()'><b>testAddClient</b><br>Test class: com.icreon.res_allocqa.tests.admin.ClientsTest</td>
+<td></td>
+<td>2</td>
+<td>com.icreon.res_allocqa.tests.admin.ClientsTest@a4102b8</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.ClientsTest.testClientPagination()'><b>testClientPagination</b><br>Test class: com.icreon.res_allocqa.tests.admin.ClientsTest</td>
+<td></td>
+<td>1</td>
+<td>com.icreon.res_allocqa.tests.admin.ClientsTest@a4102b8</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.ClientsTest.testEditClient()'><b>testEditClient</b><br>Test class: com.icreon.res_allocqa.tests.admin.ClientsTest</td>
+<td></td>
+<td>2</td>
+<td>com.icreon.res_allocqa.tests.admin.ClientsTest@a4102b8</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.LoginTest.testLogin()'><b>testLogin</b><br>Test class: com.icreon.res_allocqa.tests.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>com.icreon.res_allocqa.tests.LoginTest@1a0dcaa</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.LogoutTest.testLogout()'><b>testLogout</b><br>Test class: com.icreon.res_allocqa.tests.LogoutTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.LogoutTest@11dc3715</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.ClientsTest.testSearchClientByAccOwner()'><b>testSearchClientByAccOwner</b><br>Test class: com.icreon.res_allocqa.tests.admin.ClientsTest</td>
+<td></td>
+<td>1</td>
+<td>com.icreon.res_allocqa.tests.admin.ClientsTest@a4102b8</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.ClientsTest.testSearchClientByCountry()'><b>testSearchClientByCountry</b><br>Test class: com.icreon.res_allocqa.tests.admin.ClientsTest</td>
+<td></td>
+<td>1</td>
+<td>com.icreon.res_allocqa.tests.admin.ClientsTest@a4102b8</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.ClientsTest.testSearchClientByName()'><b>testSearchClientByName</b><br>Test class: com.icreon.res_allocqa.tests.admin.ClientsTest</td>
+<td></td>
+<td>1</td>
+<td>com.icreon.res_allocqa.tests.admin.ClientsTest@a4102b8</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.ClientsTest.testSearchClientByStatusActive()'><b>testSearchClientByStatusActive</b><br>Test class: com.icreon.res_allocqa.tests.admin.ClientsTest</td>
+<td></td>
+<td>1</td>
+<td>com.icreon.res_allocqa.tests.admin.ClientsTest@a4102b8</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.ClientsTest.testSearchClientByStatusInactive()'><b>testSearchClientByStatusInactive</b><br>Test class: com.icreon.res_allocqa.tests.admin.ClientsTest</td>
+<td></td>
+<td>1</td>
+<td>com.icreon.res_allocqa.tests.admin.ClientsTest@a4102b8</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.ClientsTest.testSortingClientByAccOwnerAscending()'><b>testSortingClientByAccOwnerAscending</b><br>Test class: com.icreon.res_allocqa.tests.admin.ClientsTest</td>
+<td></td>
+<td>3</td>
+<td>com.icreon.res_allocqa.tests.admin.ClientsTest@a4102b8</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.ClientsTest.testSortingClientByAccOwnerDescending()'><b>testSortingClientByAccOwnerDescending</b><br>Test class: com.icreon.res_allocqa.tests.admin.ClientsTest</td>
+<td></td>
+<td>3</td>
+<td>com.icreon.res_allocqa.tests.admin.ClientsTest@a4102b8</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.ClientsTest.testSortingClientByCountryAscending()'><b>testSortingClientByCountryAscending</b><br>Test class: com.icreon.res_allocqa.tests.admin.ClientsTest</td>
+<td></td>
+<td>3</td>
+<td>com.icreon.res_allocqa.tests.admin.ClientsTest@a4102b8</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.ClientsTest.testSortingClientByCountryDescending()'><b>testSortingClientByCountryDescending</b><br>Test class: com.icreon.res_allocqa.tests.admin.ClientsTest</td>
+<td></td>
+<td>4</td>
+<td>com.icreon.res_allocqa.tests.admin.ClientsTest@a4102b8</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.ClientsTest.testSortingClientByNameAscending()'><b>testSortingClientByNameAscending</b><br>Test class: com.icreon.res_allocqa.tests.admin.ClientsTest</td>
+<td></td>
+<td>3</td>
+<td>com.icreon.res_allocqa.tests.admin.ClientsTest@a4102b8</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.ClientsTest.testSortingClientByNameDescending()'><b>testSortingClientByNameDescending</b><br>Test class: com.icreon.res_allocqa.tests.admin.ClientsTest</td>
+<td></td>
+<td>4</td>
+<td>com.icreon.res_allocqa.tests.admin.ClientsTest@a4102b8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.checkURLStatusCodes()'><b>checkURLStatusCodes</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.navigateToManageSkillCOE()'><b>navigateToManageSkillCOE</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.navigateToManageSkillCOE()'><b>navigateToManageSkillCOE</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.navigateToRoleMapping()'><b>navigateToRoleMapping</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.testActivateCOE()'><b>testActivateCOE</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.testActivateSkill()'><b>testActivateSkill</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.testAddCOE()'><b>testAddCOE</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.testAddSkill()'><b>testAddSkill</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.testCOEPagination()'><b>testCOEPagination</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.testCOEPagination()'><b>testCOEPagination</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.testDeactivateCOE()'><b>testDeactivateCOE</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.testDeactivateSkill()'><b>testDeactivateSkill</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.testEditCOE()'><b>testEditCOE</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.testEditSkill()'><b>testEditSkill</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.testRolePagination()'><b>testRolePagination</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.testSearchByStatusAInative()'><b>testSearchByStatusAInative</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.testSearchByStatusAInative()'><b>testSearchByStatusAInative</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.testSearchByStatusActive()'><b>testSearchByStatusActive</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.testSearchByStatusActive()'><b>testSearchByStatusActive</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.testSearchCOEByName()'><b>testSearchCOEByName</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSearchRoleByEmpID()'><b>testSearchRoleByEmpID</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSearchRoleByName()'><b>testSearchRoleByName</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSearchRoleByStatusActive()'><b>testSearchRoleByStatusActive</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSearchRoleByStatusInactive()'><b>testSearchRoleByStatusInactive</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.testSearchSkillByCOE()'><b>testSearchSkillByCOE</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.testSearchSkillByName()'><b>testSearchSkillByName</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.testSortingByCOEAscending()'><b>testSortingByCOEAscending</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.CoeTest.testSortingByCOEDescending()'><b>testSortingByCOEDescending</b><br>Test class: com.icreon.res_allocqa.tests.admin.CoeTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.CoeTest@3bd40a57</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSortingRoleByDesignationAscending()'><b>testSortingRoleByDesignationAscending</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSortingRoleByDesignationDescending()'><b>testSortingRoleByDesignationDescending</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSortingRoleByEmailAscending()'><b>testSortingRoleByEmailAscending</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSortingRoleByEmailDescending()'><b>testSortingRoleByEmailDescending</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSortingRoleByEmpIdAscending()'><b>testSortingRoleByEmpIdAscending</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSortingRoleByEmpIdDescending()'><b>testSortingRoleByEmpIdDescending</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSortingRoleByNameAscending()'><b>testSortingRoleByNameAscending</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSortingRoleByNameDescending()'><b>testSortingRoleByNameDescending</b><br>Test class: com.icreon.res_allocqa.tests.admin.RoleMappingTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.RoleMappingTest@d83da2e</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.testSortingSkillByCOEAscending()'><b>testSortingSkillByCOEAscending</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.testSortingSkillByCOEDescending()'><b>testSortingSkillByCOEDescending</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.testSortingSkillByNameAscending()'><b>testSortingSkillByNameAscending</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+<tr>
+<td title='com.icreon.res_allocqa.tests.admin.SkillTest.testSortingSkillByNameDescending()'><b>testSortingSkillByNameDescending</b><br>Test class: com.icreon.res_allocqa.tests.admin.SkillTest</td>
+<td></td>
+<td>0</td>
+<td>com.icreon.res_allocqa.tests.admin.SkillTest@fdefd3f</td></tr>
+</table><p>
+</body>
+</html>

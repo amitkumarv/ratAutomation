@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Sorting Only(failed)">
+    <groups>
+      <run>
+        <include name="Search"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.icreon.res_allocqa.tests.LogoutTest">
+        <methods>
+          <include name="testInit"/>
+          <include name="runBeforeSuit"/>
+          <include name="handleTestMethodName"/>
+          <include name="quitBrowser"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.icreon.res_allocqa.tests.LogoutTest -->
+      <class name="com.icreon.res_allocqa.tests.LoginTest">
+        <methods>
+          <include name="testInit"/>
+          <include name="beforeClass"/>
+          <include name="handleTestMethodName"/>
+        </methods>
+      </class> <!-- com.icreon.res_allocqa.tests.LoginTest -->
+      <class name="com.icreon.res_allocqa.tests.admin.CoeTest">
+        <methods>
+          <include name="testSearchCOEByName"/>
+        </methods>
+      </class> <!-- com.icreon.res_allocqa.tests.admin.CoeTest -->
+    </classes>
+  </test> <!-- Sorting Only(failed) -->
+</suite> <!-- Failed suite [Suite] -->

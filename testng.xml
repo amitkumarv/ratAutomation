@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  	<test name="Login">
+	  	<classes>
+			<class name="com.icreon.res_allocqa.tests.LoginTest"/>
+	    </classes>
+    </test>
+  <!-- <test name="All Test">
+    <classes>
+      <class name="com.icreon.res_allocqa.tests.admin.CoeTest"/>
+      <class name="com.icreon.res_allocqa.tests.admin.SkillTest"/>
+      <class name="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+      <class name="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+    </classes>
+  </test> -->
+  
+  	<test name="Sorting Only">
+	  	<groups>
+			<run>
+				<!-- All, Sorting, Search, Pagination -->
+				<include name="All" />
+			</run>
+		</groups>
+	    <classes>
+    		<class name="com.icreon.res_allocqa.tests.admin.CoeTest"/>
+	      	<class name="com.icreon.res_allocqa.tests.admin.SkillTest"/>
+	     	<class name="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+		    <class name="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+	    </classes>
+  	</test>
+   	<test name="LogOut">
+	  	<classes>
+	      <class name="com.icreon.res_allocqa.tests.LogoutTest"/>
+	    </classes>
+    </test>
+  
+</suite> <!-- Suite -->
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/POI/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/POI/openxml4j-1.0-beta.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/POI/poi-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/POI/poi-ooxml-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/POI/poi-ooxml-schemas-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/POI/poi-scratchpad-3.9.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/POI/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/extentreports-java-2.41.0.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/flash-selenium.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/fontbox-1.8.10.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/jxl.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/opencsv-3.2.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/pdfbox-1.8.10.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/rt.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationJARS/testng-6.8.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
