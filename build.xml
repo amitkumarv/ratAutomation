@@ -26,7 +26,6 @@
 	<taskdef name="testng" classname="org.testng.TestNGAntTask" classpathref="master-classpath" />
 	
 	<target name="testng-execution" depends="compile">
-		<!--<mkdir dir="${testng-report-dir}" />-->
 		<testng classpathref="master-classpath" useDefaultListeners="true">
 			<xmlfileset dir="${basedir}" includes="testng.xml" />
 		</testng>

@@ -5,21 +5,12 @@
 	  	<classes>
 			<class name="com.icreon.res_allocqa.tests.LoginTest"/>
 	    </classes>
-    </test>
-  <!-- <test name="All Test">
-    <classes>
-      <class name="com.icreon.res_allocqa.tests.admin.CoeTest"/>
-      <class name="com.icreon.res_allocqa.tests.admin.SkillTest"/>
-      <class name="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-      <class name="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-    </classes>
-  </test> -->
-  
+    </test>  
   	<test name="Sorting Only">
 	  	<groups>
 			<run>
 				<!-- All, Sorting, Search, Pagination -->
-				<include name="All" />
+				<include name="Pagination" />
 			</run>
 		</groups>
 	    <classes>

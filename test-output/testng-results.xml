@@ -1,50 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="41" total="42" passed="0">
+<testng-results skipped="1" failed="5" total="6" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="2358" started-at="2016-10-25T07:04:49Z" finished-at="2016-10-25T07:04:51Z">
+  <suite name="Suite" duration-ms="232" started-at="2016-10-25T12:35:44Z" finished-at="2016-10-25T12:35:44Z">
     <groups>
       <group name="All">
         <method signature="ClientsTest.testClientPagination()[pri:15, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testClientPagination" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="ClientsTest.testSearchClientByAccOwner()[pri:5, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSearchClientByAccOwner" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="ClientsTest.testSearchClientByCountry()[pri:6, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSearchClientByCountry" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="ClientsTest.testSearchClientByName()[pri:4, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSearchClientByName" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="ClientsTest.testSearchClientByStatusActive()[pri:7, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSearchClientByStatusActive" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="ClientsTest.testSearchClientByStatusInactive()[pri:8, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSearchClientByStatusInactive" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="ClientsTest.testSortingClientByAccOwnerAscending()[pri:13, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSortingClientByAccOwnerAscending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="ClientsTest.testSortingClientByAccOwnerDescending()[pri:14, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSortingClientByAccOwnerDescending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="ClientsTest.testSortingClientByCountryAscending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSortingClientByCountryAscending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="ClientsTest.testSortingClientByCountryDescending()[pri:12, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSortingClientByCountryDescending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="ClientsTest.testSortingClientByNameAscending()[pri:9, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSortingClientByNameAscending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="ClientsTest.testSortingClientByNameDescending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSortingClientByNameDescending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
         <method signature="CoeTest.testCOEPagination()[pri:12, instance:com.icreon.res_allocqa.tests.admin.CoeTest@701fc37a]" name="testCOEPagination" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
-        <method signature="CoeTest.testSearchByStatusAInative()[pri:9, instance:com.icreon.res_allocqa.tests.admin.CoeTest@701fc37a]" name="testSearchByStatusAInative" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
-        <method signature="CoeTest.testSearchByStatusActive()[pri:8, instance:com.icreon.res_allocqa.tests.admin.CoeTest@701fc37a]" name="testSearchByStatusActive" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
-        <method signature="CoeTest.testSearchCOEByName()[pri:7, instance:com.icreon.res_allocqa.tests.admin.CoeTest@701fc37a]" name="testSearchCOEByName" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
-        <method signature="CoeTest.testSortingByCOEAscending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.CoeTest@701fc37a]" name="testSortingByCOEAscending" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
-        <method signature="CoeTest.testSortingByCOEDescending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.CoeTest@701fc37a]" name="testSortingByCOEDescending" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
         <method signature="RoleMappingTest.testRolePagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testRolePagination" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSearchRoleByEmpID()[pri:3, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSearchRoleByEmpID" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSearchRoleByName()[pri:2, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSearchRoleByName" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSearchRoleByStatusActive()[pri:4, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSearchRoleByStatusActive" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSearchRoleByStatusInactive()[pri:5, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSearchRoleByStatusInactive" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSortingRoleByDesignationAscending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByDesignationAscending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSortingRoleByDesignationDescending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByDesignationDescending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSortingRoleByEmailAscending()[pri:12, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByEmailAscending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSortingRoleByEmailDescending()[pri:13, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByEmailDescending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSortingRoleByEmpIdAscending()[pri:6, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByEmpIdAscending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSortingRoleByEmpIdDescending()[pri:7, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByEmpIdDescending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSortingRoleByNameAscending()[pri:8, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByNameAscending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSortingRoleByNameDescending()[pri:9, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByNameDescending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
         <method signature="SkillTest.testCOEPagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testCOEPagination" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
-        <method signature="SkillTest.testSearchByStatusAInative()[pri:9, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSearchByStatusAInative" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
-        <method signature="SkillTest.testSearchByStatusActive()[pri:8, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSearchByStatusActive" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
-        <method signature="SkillTest.testSearchSkillByCOE()[pri:7, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSearchSkillByCOE" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
-        <method signature="SkillTest.testSearchSkillByName()[pri:6, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSearchSkillByName" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
-        <method signature="SkillTest.testSortingSkillByCOEAscending()[pri:12, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSortingSkillByCOEAscending" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
-        <method signature="SkillTest.testSortingSkillByCOEDescending()[pri:13, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSortingSkillByCOEDescending" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
-        <method signature="SkillTest.testSortingSkillByNameAscending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSortingSkillByNameAscending" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
-        <method signature="SkillTest.testSortingSkillByNameDescending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSortingSkillByNameDescending" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
       </group> <!-- All -->
       <group name="Pagination">
         <method signature="ClientsTest.testClientPagination()[pri:15, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testClientPagination" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
@@ -52,50 +16,10 @@
         <method signature="RoleMappingTest.testRolePagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testRolePagination" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
         <method signature="SkillTest.testCOEPagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testCOEPagination" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
       </group> <!-- Pagination -->
-      <group name="Search">
-        <method signature="ClientsTest.testSearchClientByAccOwner()[pri:5, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSearchClientByAccOwner" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="ClientsTest.testSearchClientByCountry()[pri:6, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSearchClientByCountry" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="ClientsTest.testSearchClientByName()[pri:4, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSearchClientByName" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="ClientsTest.testSearchClientByStatusActive()[pri:7, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSearchClientByStatusActive" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="ClientsTest.testSearchClientByStatusInactive()[pri:8, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSearchClientByStatusInactive" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="CoeTest.testSearchByStatusAInative()[pri:9, instance:com.icreon.res_allocqa.tests.admin.CoeTest@701fc37a]" name="testSearchByStatusAInative" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
-        <method signature="CoeTest.testSearchByStatusActive()[pri:8, instance:com.icreon.res_allocqa.tests.admin.CoeTest@701fc37a]" name="testSearchByStatusActive" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
-        <method signature="CoeTest.testSearchCOEByName()[pri:7, instance:com.icreon.res_allocqa.tests.admin.CoeTest@701fc37a]" name="testSearchCOEByName" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
-        <method signature="RoleMappingTest.testSearchRoleByEmpID()[pri:3, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSearchRoleByEmpID" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSearchRoleByName()[pri:2, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSearchRoleByName" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSearchRoleByStatusActive()[pri:4, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSearchRoleByStatusActive" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSearchRoleByStatusInactive()[pri:5, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSearchRoleByStatusInactive" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="SkillTest.testSearchByStatusAInative()[pri:9, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSearchByStatusAInative" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
-        <method signature="SkillTest.testSearchByStatusActive()[pri:8, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSearchByStatusActive" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
-        <method signature="SkillTest.testSearchSkillByCOE()[pri:7, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSearchSkillByCOE" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
-        <method signature="SkillTest.testSearchSkillByName()[pri:6, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSearchSkillByName" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
-      </group> <!-- Search -->
-      <group name="Sorting">
-        <method signature="ClientsTest.testSortingClientByAccOwnerAscending()[pri:13, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSortingClientByAccOwnerAscending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="ClientsTest.testSortingClientByAccOwnerDescending()[pri:14, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSortingClientByAccOwnerDescending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="ClientsTest.testSortingClientByCountryAscending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSortingClientByCountryAscending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="ClientsTest.testSortingClientByCountryDescending()[pri:12, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSortingClientByCountryDescending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="ClientsTest.testSortingClientByNameAscending()[pri:9, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSortingClientByNameAscending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="ClientsTest.testSortingClientByNameDescending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSortingClientByNameDescending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
-        <method signature="CoeTest.testSortingByCOEAscending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.CoeTest@701fc37a]" name="testSortingByCOEAscending" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
-        <method signature="CoeTest.testSortingByCOEDescending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.CoeTest@701fc37a]" name="testSortingByCOEDescending" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
-        <method signature="RoleMappingTest.testSortingRoleByDesignationAscending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByDesignationAscending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSortingRoleByDesignationDescending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByDesignationDescending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSortingRoleByEmailAscending()[pri:12, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByEmailAscending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSortingRoleByEmailDescending()[pri:13, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByEmailDescending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSortingRoleByEmpIdAscending()[pri:6, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByEmpIdAscending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSortingRoleByEmpIdDescending()[pri:7, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByEmpIdDescending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSortingRoleByNameAscending()[pri:8, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByNameAscending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="RoleMappingTest.testSortingRoleByNameDescending()[pri:9, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByNameDescending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
-        <method signature="SkillTest.testSortingSkillByCOEAscending()[pri:12, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSortingSkillByCOEAscending" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
-        <method signature="SkillTest.testSortingSkillByCOEDescending()[pri:13, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSortingSkillByCOEDescending" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
-        <method signature="SkillTest.testSortingSkillByNameAscending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSortingSkillByNameAscending" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
-        <method signature="SkillTest.testSortingSkillByNameDescending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSortingSkillByNameDescending" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
-      </group> <!-- Sorting -->
     </groups>
-    <test name="Login" duration-ms="104" started-at="2016-10-25T07:04:49Z" finished-at="2016-10-25T07:04:49Z">
+    <test name="Login" duration-ms="64" started-at="2016-10-25T12:35:44Z" finished-at="2016-10-25T12:35:44Z">
       <class name="com.icreon.res_allocqa.tests.LoginTest">
-        <test-method status="FAIL" signature="testInit()[pri:0, instance:com.icreon.res_allocqa.tests.LoginTest@78186a70]" name="testInit" is-config="true" duration-ms="0" started-at="2016-10-25T12:34:49Z" finished-at="2016-10-25T12:34:49Z">
+        <test-method status="FAIL" signature="testInit()[pri:0, instance:com.icreon.res_allocqa.tests.LoginTest@481a15ff]" name="testInit" is-config="true" duration-ms="0" started-at="2016-10-25T18:05:44Z" finished-at="2016-10-25T18:05:44Z">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
@@ -112,13 +36,13 @@
 	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:230)
 	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:226)
 	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:124)
-	at com.icreon.res_allocqa.helpers.WebDriverFactory.instantiateDriver(Unknown Source)
-	at base.testBase.init(Unknown Source)
-	at com.icreon.res_allocqa.tests.LoginTest.testInit(Unknown Source)
+	at com.icreon.res_allocqa.helpers.WebDriverFactory.instantiateDriver(WebDriverFactory.java:29)
+	at base.testBase.init(testBase.java:42)
+	at com.icreon.res_allocqa.tests.LoginTest.testInit(LoginTest.java:35)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
@@ -142,478 +66,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInit -->
-        <test-method status="SKIP" signature="beforeClass()[pri:0, instance:com.icreon.res_allocqa.tests.LoginTest@78186a70]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-10-25T12:34:49Z" finished-at="2016-10-25T12:34:49Z">
+        <test-method status="SKIP" signature="beforeClass()[pri:0, instance:com.icreon.res_allocqa.tests.LoginTest@481a15ff]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-10-25T18:05:44Z" finished-at="2016-10-25T18:05:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="SKIP" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.icreon.res_allocqa.tests.LoginTest@78186a70]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-10-25T12:34:49Z" finished-at="2016-10-25T12:34:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handleTestMethodName -->
-        <test-method status="SKIP" signature="testLogin()[pri:1, instance:com.icreon.res_allocqa.tests.LoginTest@78186a70]" name="testLogin" duration-ms="0" started-at="2016-10-25T12:34:49Z" finished-at="2016-10-25T12:34:49Z">
+        <test-method status="SKIP" signature="testLogin()[pri:1, instance:com.icreon.res_allocqa.tests.LoginTest@481a15ff]" name="testLogin" duration-ms="0" started-at="2016-10-25T18:05:44Z" finished-at="2016-10-25T18:05:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
       </class> <!-- com.icreon.res_allocqa.tests.LoginTest -->
     </test> <!-- Login -->
-    <test name="Sorting Only" duration-ms="2115" started-at="2016-10-25T07:04:49Z" finished-at="2016-10-25T07:04:51Z">
+    <test name="Sorting Only" duration-ms="104" started-at="2016-10-25T12:35:44Z" finished-at="2016-10-25T12:35:44Z">
       <class name="com.icreon.res_allocqa.tests.admin.RoleMappingTest">
-        <test-method status="FAIL" signature="testSearchRoleByName()[pri:2, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSearchRoleByName" duration-ms="39" started-at="2016-10-25T12:34:50Z" finished-at="2016-10-25T12:34:50Z">
+        <test-method status="FAIL" signature="testRolePagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testRolePagination" duration-ms="5" started-at="2016-10-25T18:05:44Z" finished-at="2016-10-25T18:05:44Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
+	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(SeleniumUtils.java:36)
+	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(SeleniumUtils.java:105)
 	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSearchRoleByName(Unknown Source)
+	at com.icreon.res_allocqa.tests.admin.RoleMappingTest.testRolePagination(RoleMappingTest.java:416)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchRoleByName -->
-        <test-method status="FAIL" signature="testSearchRoleByEmpID()[pri:3, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSearchRoleByEmpID" duration-ms="41" started-at="2016-10-25T12:34:50Z" finished-at="2016-10-25T12:34:50Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSearchRoleByEmpID(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchRoleByEmpID -->
-        <test-method status="FAIL" signature="testSearchRoleByStatusActive()[pri:4, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSearchRoleByStatusActive" duration-ms="41" started-at="2016-10-25T12:34:50Z" finished-at="2016-10-25T12:34:50Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSearchRoleByStatusActive(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchRoleByStatusActive -->
-        <test-method status="FAIL" signature="testSearchRoleByStatusInactive()[pri:5, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSearchRoleByStatusInactive" duration-ms="40" started-at="2016-10-25T12:34:50Z" finished-at="2016-10-25T12:34:50Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSearchRoleByStatusInactive(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchRoleByStatusInactive -->
-        <test-method status="FAIL" signature="testSortingRoleByEmpIdAscending()[pri:6, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByEmpIdAscending" duration-ms="38" started-at="2016-10-25T12:34:50Z" finished-at="2016-10-25T12:34:50Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSortingRoleByEmpIdAscending(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSortingRoleByEmpIdAscending -->
-        <test-method status="FAIL" signature="testSortingRoleByEmpIdDescending()[pri:7, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByEmpIdDescending" duration-ms="33" started-at="2016-10-25T12:34:50Z" finished-at="2016-10-25T12:34:50Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSortingRoleByEmpIdDescending(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSortingRoleByEmpIdDescending -->
-        <test-method status="FAIL" signature="testSortingRoleByNameAscending()[pri:8, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByNameAscending" duration-ms="32" started-at="2016-10-25T12:34:50Z" finished-at="2016-10-25T12:34:51Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSortingRoleByNameAscending(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSortingRoleByNameAscending -->
-        <test-method status="FAIL" signature="testSortingRoleByNameDescending()[pri:9, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByNameDescending" duration-ms="31" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSortingRoleByNameDescending(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSortingRoleByNameDescending -->
-        <test-method status="FAIL" signature="testSortingRoleByDesignationAscending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByDesignationAscending" duration-ms="31" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSortingRoleByDesignationAscending(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSortingRoleByDesignationAscending -->
-        <test-method status="FAIL" signature="testSortingRoleByDesignationDescending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByDesignationDescending" duration-ms="33" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSortingRoleByDesignationDescending(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSortingRoleByDesignationDescending -->
-        <test-method status="FAIL" signature="testSortingRoleByEmailAscending()[pri:12, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByEmailAscending" duration-ms="30" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSortingRoleByEmailAscending(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSortingRoleByEmailAscending -->
-        <test-method status="FAIL" signature="testSortingRoleByEmailDescending()[pri:13, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testSortingRoleByEmailDescending" duration-ms="33" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.RoleMappingTest.testSortingRoleByEmailDescending(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSortingRoleByEmailDescending -->
-        <test-method status="FAIL" signature="testRolePagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@282003e1]" name="testRolePagination" duration-ms="31" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.RoleMappingTest.testRolePagination(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
@@ -641,314 +117,18 @@
         </test-method> <!-- testRolePagination -->
       </class> <!-- com.icreon.res_allocqa.tests.admin.RoleMappingTest -->
       <class name="com.icreon.res_allocqa.tests.admin.SkillTest">
-        <test-method status="FAIL" signature="testSearchSkillByName()[pri:6, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSearchSkillByName" duration-ms="48" started-at="2016-10-25T12:34:50Z" finished-at="2016-10-25T12:34:50Z">
+        <test-method status="FAIL" signature="testCOEPagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testCOEPagination" duration-ms="5" started-at="2016-10-25T18:05:44Z" finished-at="2016-10-25T18:05:44Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
+	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(SeleniumUtils.java:36)
+	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(SeleniumUtils.java:105)
 	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.SkillTest.testSearchSkillByName(Unknown Source)
+	at com.icreon.res_allocqa.tests.admin.SkillTest.testCOEPagination(SkillTest.java:447)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchSkillByName -->
-        <test-method status="FAIL" signature="testSearchSkillByCOE()[pri:7, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSearchSkillByCOE" duration-ms="51" started-at="2016-10-25T12:34:50Z" finished-at="2016-10-25T12:34:50Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.SkillTest.testSearchSkillByCOE(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchSkillByCOE -->
-        <test-method status="FAIL" signature="testSearchByStatusActive()[pri:8, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSearchByStatusActive" duration-ms="64" started-at="2016-10-25T12:34:50Z" finished-at="2016-10-25T12:34:50Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.SkillTest.testSearchByStatusActive(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchByStatusActive -->
-        <test-method status="FAIL" signature="testSearchByStatusAInative()[pri:9, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSearchByStatusAInative" duration-ms="40" started-at="2016-10-25T12:34:50Z" finished-at="2016-10-25T12:34:50Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.SkillTest.testSearchByStatusAInative(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchByStatusAInative -->
-        <test-method status="FAIL" signature="testSortingSkillByNameAscending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSortingSkillByNameAscending" duration-ms="36" started-at="2016-10-25T12:34:50Z" finished-at="2016-10-25T12:34:50Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.SkillTest.testSortingSkillByNameAscending(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSortingSkillByNameAscending -->
-        <test-method status="FAIL" signature="testSortingSkillByNameDescending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSortingSkillByNameDescending" duration-ms="47" started-at="2016-10-25T12:34:50Z" finished-at="2016-10-25T12:34:50Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.SkillTest.testSortingSkillByNameDescending(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSortingSkillByNameDescending -->
-        <test-method status="FAIL" signature="testSortingSkillByCOEAscending()[pri:12, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSortingSkillByCOEAscending" duration-ms="37" started-at="2016-10-25T12:34:50Z" finished-at="2016-10-25T12:34:50Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.SkillTest.testSortingSkillByCOEAscending(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSortingSkillByCOEAscending -->
-        <test-method status="FAIL" signature="testSortingSkillByCOEDescending()[pri:13, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testSortingSkillByCOEDescending" duration-ms="37" started-at="2016-10-25T12:34:50Z" finished-at="2016-10-25T12:34:50Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.SkillTest.testSortingSkillByCOEDescending(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSortingSkillByCOEDescending -->
-        <test-method status="FAIL" signature="testCOEPagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4148db48]" name="testCOEPagination" duration-ms="37" started-at="2016-10-25T12:34:50Z" finished-at="2016-10-25T12:34:50Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.SkillTest.testCOEPagination(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
@@ -976,425 +156,18 @@
         </test-method> <!-- testCOEPagination -->
       </class> <!-- com.icreon.res_allocqa.tests.admin.SkillTest -->
       <class name="com.icreon.res_allocqa.tests.admin.ClientsTest">
-        <test-method status="FAIL" signature="testSearchClientByName()[pri:4, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSearchClientByName" duration-ms="31" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
+        <test-method status="FAIL" signature="testClientPagination()[pri:15, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testClientPagination" duration-ms="4" started-at="2016-10-25T18:05:44Z" finished-at="2016-10-25T18:05:44Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
+	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(SeleniumUtils.java:36)
+	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(SeleniumUtils.java:105)
 	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.ClientsTest.testSearchClientByName(Unknown Source)
+	at com.icreon.res_allocqa.tests.admin.ClientsTest.testClientPagination(ClientsTest.java:473)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchClientByName -->
-        <test-method status="FAIL" signature="testSearchClientByAccOwner()[pri:5, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSearchClientByAccOwner" duration-ms="29" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.ClientsTest.testSearchClientByAccOwner(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchClientByAccOwner -->
-        <test-method status="FAIL" signature="testSearchClientByCountry()[pri:6, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSearchClientByCountry" duration-ms="29" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.ClientsTest.testSearchClientByCountry(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchClientByCountry -->
-        <test-method status="FAIL" signature="testSearchClientByStatusActive()[pri:7, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSearchClientByStatusActive" duration-ms="29" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.ClientsTest.testSearchClientByStatusActive(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchClientByStatusActive -->
-        <test-method status="FAIL" signature="testSearchClientByStatusInactive()[pri:8, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSearchClientByStatusInactive" duration-ms="30" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.ClientsTest.testSearchClientByStatusInactive(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchClientByStatusInactive -->
-        <test-method status="FAIL" signature="testSortingClientByNameAscending()[pri:9, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSortingClientByNameAscending" duration-ms="35" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.ClientsTest.testSortingClientByNameAscending(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSortingClientByNameAscending -->
-        <test-method status="FAIL" signature="testSortingClientByNameDescending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSortingClientByNameDescending" duration-ms="38" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.ClientsTest.testSortingClientByNameDescending(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSortingClientByNameDescending -->
-        <test-method status="FAIL" signature="testSortingClientByCountryAscending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSortingClientByCountryAscending" duration-ms="37" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.ClientsTest.testSortingClientByCountryAscending(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSortingClientByCountryAscending -->
-        <test-method status="FAIL" signature="testSortingClientByCountryDescending()[pri:12, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSortingClientByCountryDescending" duration-ms="38" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.ClientsTest.testSortingClientByCountryDescending(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSortingClientByCountryDescending -->
-        <test-method status="FAIL" signature="testSortingClientByAccOwnerAscending()[pri:13, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSortingClientByAccOwnerAscending" duration-ms="37" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.ClientsTest.testSortingClientByAccOwnerAscending(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSortingClientByAccOwnerAscending -->
-        <test-method status="FAIL" signature="testSortingClientByAccOwnerDescending()[pri:14, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testSortingClientByAccOwnerDescending" duration-ms="37" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.ClientsTest.testSortingClientByAccOwnerDescending(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSortingClientByAccOwnerDescending -->
-        <test-method status="FAIL" signature="testClientPagination()[pri:15, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@7fad8c79]" name="testClientPagination" duration-ms="38" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.ClientsTest.testClientPagination(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
@@ -1422,203 +195,18 @@
         </test-method> <!-- testClientPagination -->
       </class> <!-- com.icreon.res_allocqa.tests.admin.ClientsTest -->
       <class name="com.icreon.res_allocqa.tests.admin.CoeTest">
-        <test-method status="FAIL" signature="testSearchCOEByName()[pri:7, instance:com.icreon.res_allocqa.tests.admin.CoeTest@701fc37a]" name="testSearchCOEByName" duration-ms="458" started-at="2016-10-25T12:34:49Z" finished-at="2016-10-25T12:34:49Z">
+        <test-method status="FAIL" signature="testCOEPagination()[pri:12, instance:com.icreon.res_allocqa.tests.admin.CoeTest@701fc37a]" name="testCOEPagination" duration-ms="89" started-at="2016-10-25T18:05:44Z" finished-at="2016-10-25T18:05:44Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
+	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(SeleniumUtils.java:36)
+	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(SeleniumUtils.java:105)
 	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.CoeTest.testSearchCOEByName(Unknown Source)
+	at com.icreon.res_allocqa.tests.admin.CoeTest.testCOEPagination(CoeTest.java:336)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchCOEByName -->
-        <test-method status="FAIL" signature="testSearchByStatusActive()[pri:8, instance:com.icreon.res_allocqa.tests.admin.CoeTest@701fc37a]" name="testSearchByStatusActive" duration-ms="103" started-at="2016-10-25T12:34:49Z" finished-at="2016-10-25T12:34:50Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.CoeTest.testSearchByStatusActive(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchByStatusActive -->
-        <test-method status="FAIL" signature="testSearchByStatusAInative()[pri:9, instance:com.icreon.res_allocqa.tests.admin.CoeTest@701fc37a]" name="testSearchByStatusAInative" duration-ms="84" started-at="2016-10-25T12:34:50Z" finished-at="2016-10-25T12:34:50Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.CoeTest.testSearchByStatusAInative(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchByStatusAInative -->
-        <test-method status="FAIL" signature="testSortingByCOEAscending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.CoeTest@701fc37a]" name="testSortingByCOEAscending" duration-ms="70" started-at="2016-10-25T12:34:50Z" finished-at="2016-10-25T12:34:50Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.CoeTest.testSortingByCOEAscending(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSortingByCOEAscending -->
-        <test-method status="FAIL" signature="testSortingByCOEDescending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.CoeTest@701fc37a]" name="testSortingByCOEDescending" duration-ms="78" started-at="2016-10-25T12:34:50Z" finished-at="2016-10-25T12:34:50Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.CoeTest.testSortingByCOEDescending(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSortingByCOEDescending -->
-        <test-method status="FAIL" signature="testCOEPagination()[pri:12, instance:com.icreon.res_allocqa.tests.admin.CoeTest@701fc37a]" name="testCOEPagination" duration-ms="52" started-at="2016-10-25T12:34:50Z" finished-at="2016-10-25T12:34:50Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doMoveControl(Unknown Source)
-	at com.icreon.res_allocqa.pages.HeaderMenu.moveToSetup(Unknown Source)
-	at com.icreon.res_allocqa.tests.admin.CoeTest.testCOEPagination(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
@@ -1646,21 +234,21 @@
         </test-method> <!-- testCOEPagination -->
       </class> <!-- com.icreon.res_allocqa.tests.admin.CoeTest -->
     </test> <!-- Sorting Only -->
-    <test name="LogOut" duration-ms="36" started-at="2016-10-25T07:04:51Z" finished-at="2016-10-25T07:04:51Z">
+    <test name="LogOut" duration-ms="6" started-at="2016-10-25T12:35:44Z" finished-at="2016-10-25T12:35:44Z">
       <class name="com.icreon.res_allocqa.tests.LogoutTest">
-        <test-method status="PASS" signature="runBeforeSuit()[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@11e21d0e]" name="runBeforeSuit" is-config="true" duration-ms="25" started-at="2016-10-25T12:34:49Z" finished-at="2016-10-25T12:34:49Z">
+        <test-method status="PASS" signature="runBeforeSuit()[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@11e21d0e]" name="runBeforeSuit" is-config="true" duration-ms="7" started-at="2016-10-25T18:05:44Z" finished-at="2016-10-25T18:05:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runBeforeSuit -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@11e21d0e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testInit()[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@11e21d0e]" name="testInit" is-config="true" duration-ms="0" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
+        <test-method status="PASS" signature="testInit()[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@11e21d0e]" name="testInit" is-config="true" duration-ms="0" started-at="2016-10-25T18:05:44Z" finished-at="2016-10-25T18:05:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInit -->
-        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@11e21d0e]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@11e21d0e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-10-25T18:05:44Z" finished-at="2016-10-25T18:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@11e21d0e]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2016-10-25T18:05:44Z" finished-at="2016-10-25T18:05:44Z">
           <params>
             <param index="0">
               <value>
@@ -1671,18 +259,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handleTestMethodName -->
-        <test-method status="FAIL" signature="testLogout()[pri:100, instance:com.icreon.res_allocqa.tests.LogoutTest@11e21d0e]" name="testLogout" duration-ms="35" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
+        <test-method status="FAIL" signature="testLogout()[pri:100, instance:com.icreon.res_allocqa.tests.LogoutTest@11e21d0e]" name="testLogout" duration-ms="4" started-at="2016-10-25T18:05:44Z" finished-at="2016-10-25T18:05:44Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(Unknown Source)
-	at com.icreon.res_allocqa.utilities.SeleniumUtils.doClick(Unknown Source)
+	at com.icreon.res_allocqa.utilities.SeleniumUtils.takeScreenShot(SeleniumUtils.java:36)
+	at com.icreon.res_allocqa.utilities.SeleniumUtils.doClick(SeleniumUtils.java:82)
 	at com.icreon.res_allocqa.pages.LogoutPage.clickLogout(Unknown Source)
 	at com.icreon.res_allocqa.tests.LogoutTest.testLogout(Unknown Source)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
@@ -1708,15 +296,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogout -->
-        <test-method status="FAIL" signature="quitBrowser()[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@11e21d0e]" name="quitBrowser" is-config="true" duration-ms="0" started-at="2016-10-25T12:34:51Z" finished-at="2016-10-25T12:34:51Z">
+        <test-method status="FAIL" signature="quitBrowser()[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@11e21d0e]" name="quitBrowser" is-config="true" duration-ms="0" started-at="2016-10-25T18:05:44Z" finished-at="2016-10-25T18:05:44Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at base.testBase.quitBrowser(Unknown Source)
+	at base.testBase.quitBrowser(testBase.java:72)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)

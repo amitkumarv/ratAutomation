@@ -23,7 +23,7 @@
   <test name="Sorting Only(failed)">
     <groups>
       <run>
-        <include name="All"/>
+        <include name="Pagination"/>
       </run>
     </groups>
     <classes>
@@ -32,33 +32,21 @@
           <include name="testInit"/>
         </methods>
       </class> <!-- com.icreon.res_allocqa.tests.LoginTest -->
-      <class name="com.icreon.res_allocqa.tests.admin.RoleMappingTest">
+      <class name="com.icreon.res_allocqa.tests.admin.ClientsTest">
         <methods>
-          <include name="testSearchRoleByEmpID"/>
-          <include name="testSortingRoleByNameDescending"/>
-          <include name="testSortingRoleByEmpIdAscending"/>
-          <include name="testSortingRoleByDesignationDescending"/>
-          <include name="testRolePagination"/>
-          <include name="testSearchRoleByStatusInactive"/>
-          <include name="testSortingRoleByNameAscending"/>
-          <include name="testSortingRoleByEmailDescending"/>
-          <include name="testSortingRoleByEmailAscending"/>
-          <include name="testSearchRoleByName"/>
-          <include name="testSortingRoleByDesignationAscending"/>
-          <include name="testSortingRoleByEmpIdDescending"/>
-          <include name="testSearchRoleByStatusActive"/>
+          <include name="testClientPagination"/>
         </methods>
-      </class> <!-- com.icreon.res_allocqa.tests.admin.RoleMappingTest -->
+      </class> <!-- com.icreon.res_allocqa.tests.admin.ClientsTest -->
       <class name="com.icreon.res_allocqa.tests.admin.CoeTest">
         <methods>
-          <include name="testSearchByStatusActive"/>
-          <include name="testSearchByStatusAInative"/>
-          <include name="testSearchCOEByName"/>
-          <include name="testSortingByCOEDescending"/>
-          <include name="testSortingByCOEAscending"/>
           <include name="testCOEPagination"/>
         </methods>
       </class> <!-- com.icreon.res_allocqa.tests.admin.CoeTest -->
+      <class name="com.icreon.res_allocqa.tests.admin.SkillTest">
+        <methods>
+          <include name="testCOEPagination"/>
+        </methods>
+      </class> <!-- com.icreon.res_allocqa.tests.admin.SkillTest -->
       <class name="com.icreon.res_allocqa.tests.LogoutTest">
         <methods>
           <include name="testInit"/>
@@ -68,35 +56,11 @@
           <include name="beforeClass"/>
         </methods>
       </class> <!-- com.icreon.res_allocqa.tests.LogoutTest -->
-      <class name="com.icreon.res_allocqa.tests.admin.SkillTest">
+      <class name="com.icreon.res_allocqa.tests.admin.RoleMappingTest">
         <methods>
-          <include name="testCOEPagination"/>
-          <include name="testSortingSkillByNameAscending"/>
-          <include name="testSearchByStatusAInative"/>
-          <include name="testSearchSkillByCOE"/>
-          <include name="testSearchSkillByName"/>
-          <include name="testSortingSkillByNameDescending"/>
-          <include name="testSortingSkillByCOEAscending"/>
-          <include name="testSortingSkillByCOEDescending"/>
-          <include name="testSearchByStatusActive"/>
+          <include name="testRolePagination"/>
         </methods>
-      </class> <!-- com.icreon.res_allocqa.tests.admin.SkillTest -->
-      <class name="com.icreon.res_allocqa.tests.admin.ClientsTest">
-        <methods>
-          <include name="testSortingClientByAccOwnerDescending"/>
-          <include name="testSearchClientByCountry"/>
-          <include name="testClientPagination"/>
-          <include name="testSearchClientByStatusActive"/>
-          <include name="testSearchClientByAccOwner"/>
-          <include name="testSortingClientByAccOwnerAscending"/>
-          <include name="testSortingClientByNameAscending"/>
-          <include name="testSearchClientByName"/>
-          <include name="testSearchClientByStatusInactive"/>
-          <include name="testSortingClientByNameDescending"/>
-          <include name="testSortingClientByCountryAscending"/>
-          <include name="testSortingClientByCountryDescending"/>
-        </methods>
-      </class> <!-- com.icreon.res_allocqa.tests.admin.ClientsTest -->
+      </class> <!-- com.icreon.res_allocqa.tests.admin.RoleMappingTest -->
     </classes>
   </test> <!-- Sorting Only(failed) -->
   <test name="LogOut(failed)">

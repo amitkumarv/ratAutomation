@@ -23,6 +23,7 @@ public class LoginTest extends testBase {
 
 	@BeforeClass
 	public void beforeClass() {
+		System.out.println("login test");
 		// Check run mode
 		if(ExHelper.getRunMode(getClass().getSimpleName())) {
 			throw new SkipException("Skipping Test One");
@@ -34,12 +35,6 @@ public class LoginTest extends testBase {
 		init();
 		this.webDriver = driver;
 	}
-	
-	@BeforeMethod
-    public void handleTestMethodName(Method method)
-    {
-		//webDriver.get("http://res-allocqa.icreon.com/index");
-    }
 	
 	@Test(priority=1)
 	public void testLogin() throws InterruptedException, IOException {
