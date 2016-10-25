@@ -1,9 +1,6 @@
 package com.icreon.res_allocqa.utilities;
 
 import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Properties;
 
 public class PropertiesUtils {
