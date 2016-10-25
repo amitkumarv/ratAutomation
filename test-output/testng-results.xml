@@ -1,14 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="42" passed="42">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="18998" started-at="2016-10-24T12:51:35Z" finished-at="2016-10-24T12:51:54Z">
+  <suite name="Suite" duration-ms="193699" started-at="2016-10-25T06:31:09Z" finished-at="2016-10-25T06:34:23Z">
     <groups>
       <group name="All">
         <method signature="ClientsTest.testClientPagination()[pri:15, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testClientPagination" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="ClientsTest.testSearchClientByAccOwner()[pri:5, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSearchClientByAccOwner" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="ClientsTest.testSearchClientByCountry()[pri:6, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSearchClientByCountry" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="ClientsTest.testSearchClientByName()[pri:4, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSearchClientByName" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="ClientsTest.testSearchClientByStatusActive()[pri:7, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSearchClientByStatusActive" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="ClientsTest.testSearchClientByStatusInactive()[pri:8, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSearchClientByStatusInactive" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="ClientsTest.testSortingClientByAccOwnerAscending()[pri:13, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSortingClientByAccOwnerAscending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="ClientsTest.testSortingClientByAccOwnerDescending()[pri:14, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSortingClientByAccOwnerDescending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="ClientsTest.testSortingClientByCountryAscending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSortingClientByCountryAscending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="ClientsTest.testSortingClientByCountryDescending()[pri:12, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSortingClientByCountryDescending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="ClientsTest.testSortingClientByNameAscending()[pri:9, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSortingClientByNameAscending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="ClientsTest.testSortingClientByNameDescending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSortingClientByNameDescending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
         <method signature="CoeTest.testCOEPagination()[pri:12, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testCOEPagination" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
+        <method signature="CoeTest.testSearchByStatusAInative()[pri:9, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testSearchByStatusAInative" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
+        <method signature="CoeTest.testSearchByStatusActive()[pri:8, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testSearchByStatusActive" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
+        <method signature="CoeTest.testSearchCOEByName()[pri:7, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testSearchCOEByName" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
+        <method signature="CoeTest.testSortingByCOEAscending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testSortingByCOEAscending" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
+        <method signature="CoeTest.testSortingByCOEDescending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testSortingByCOEDescending" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
         <method signature="RoleMappingTest.testRolePagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testRolePagination" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSearchRoleByEmpID()[pri:3, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSearchRoleByEmpID" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSearchRoleByName()[pri:2, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSearchRoleByName" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSearchRoleByStatusActive()[pri:4, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSearchRoleByStatusActive" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSearchRoleByStatusInactive()[pri:5, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSearchRoleByStatusInactive" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSortingRoleByDesignationAscending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByDesignationAscending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSortingRoleByDesignationDescending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByDesignationDescending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSortingRoleByEmailAscending()[pri:12, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByEmailAscending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSortingRoleByEmailDescending()[pri:13, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByEmailDescending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSortingRoleByEmpIdAscending()[pri:6, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByEmpIdAscending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSortingRoleByEmpIdDescending()[pri:7, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByEmpIdDescending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSortingRoleByNameAscending()[pri:8, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByNameAscending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSortingRoleByNameDescending()[pri:9, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByNameDescending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
         <method signature="SkillTest.testCOEPagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testCOEPagination" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
+        <method signature="SkillTest.testSearchByStatusAInative()[pri:9, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSearchByStatusAInative" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
+        <method signature="SkillTest.testSearchByStatusActive()[pri:8, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSearchByStatusActive" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
+        <method signature="SkillTest.testSearchSkillByCOE()[pri:7, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSearchSkillByCOE" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
+        <method signature="SkillTest.testSearchSkillByName()[pri:6, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSearchSkillByName" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
+        <method signature="SkillTest.testSortingSkillByCOEAscending()[pri:12, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSortingSkillByCOEAscending" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
+        <method signature="SkillTest.testSortingSkillByCOEDescending()[pri:13, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSortingSkillByCOEDescending" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
+        <method signature="SkillTest.testSortingSkillByNameAscending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSortingSkillByNameAscending" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
+        <method signature="SkillTest.testSortingSkillByNameDescending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSortingSkillByNameDescending" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
       </group> <!-- All -->
       <group name="Pagination">
         <method signature="ClientsTest.testClientPagination()[pri:15, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testClientPagination" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
@@ -16,22 +52,62 @@
         <method signature="RoleMappingTest.testRolePagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testRolePagination" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
         <method signature="SkillTest.testCOEPagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testCOEPagination" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
       </group> <!-- Pagination -->
+      <group name="Search">
+        <method signature="ClientsTest.testSearchClientByAccOwner()[pri:5, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSearchClientByAccOwner" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="ClientsTest.testSearchClientByCountry()[pri:6, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSearchClientByCountry" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="ClientsTest.testSearchClientByName()[pri:4, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSearchClientByName" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="ClientsTest.testSearchClientByStatusActive()[pri:7, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSearchClientByStatusActive" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="ClientsTest.testSearchClientByStatusInactive()[pri:8, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSearchClientByStatusInactive" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="CoeTest.testSearchByStatusAInative()[pri:9, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testSearchByStatusAInative" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
+        <method signature="CoeTest.testSearchByStatusActive()[pri:8, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testSearchByStatusActive" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
+        <method signature="CoeTest.testSearchCOEByName()[pri:7, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testSearchCOEByName" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
+        <method signature="RoleMappingTest.testSearchRoleByEmpID()[pri:3, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSearchRoleByEmpID" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSearchRoleByName()[pri:2, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSearchRoleByName" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSearchRoleByStatusActive()[pri:4, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSearchRoleByStatusActive" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSearchRoleByStatusInactive()[pri:5, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSearchRoleByStatusInactive" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="SkillTest.testSearchByStatusAInative()[pri:9, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSearchByStatusAInative" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
+        <method signature="SkillTest.testSearchByStatusActive()[pri:8, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSearchByStatusActive" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
+        <method signature="SkillTest.testSearchSkillByCOE()[pri:7, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSearchSkillByCOE" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
+        <method signature="SkillTest.testSearchSkillByName()[pri:6, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSearchSkillByName" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
+      </group> <!-- Search -->
+      <group name="Sorting">
+        <method signature="ClientsTest.testSortingClientByAccOwnerAscending()[pri:13, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSortingClientByAccOwnerAscending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="ClientsTest.testSortingClientByAccOwnerDescending()[pri:14, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSortingClientByAccOwnerDescending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="ClientsTest.testSortingClientByCountryAscending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSortingClientByCountryAscending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="ClientsTest.testSortingClientByCountryDescending()[pri:12, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSortingClientByCountryDescending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="ClientsTest.testSortingClientByNameAscending()[pri:9, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSortingClientByNameAscending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="ClientsTest.testSortingClientByNameDescending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSortingClientByNameDescending" class="com.icreon.res_allocqa.tests.admin.ClientsTest"/>
+        <method signature="CoeTest.testSortingByCOEAscending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testSortingByCOEAscending" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
+        <method signature="CoeTest.testSortingByCOEDescending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testSortingByCOEDescending" class="com.icreon.res_allocqa.tests.admin.CoeTest"/>
+        <method signature="RoleMappingTest.testSortingRoleByDesignationAscending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByDesignationAscending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSortingRoleByDesignationDescending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByDesignationDescending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSortingRoleByEmailAscending()[pri:12, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByEmailAscending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSortingRoleByEmailDescending()[pri:13, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByEmailDescending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSortingRoleByEmpIdAscending()[pri:6, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByEmpIdAscending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSortingRoleByEmpIdDescending()[pri:7, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByEmpIdDescending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSortingRoleByNameAscending()[pri:8, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByNameAscending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="RoleMappingTest.testSortingRoleByNameDescending()[pri:9, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByNameDescending" class="com.icreon.res_allocqa.tests.admin.RoleMappingTest"/>
+        <method signature="SkillTest.testSortingSkillByCOEAscending()[pri:12, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSortingSkillByCOEAscending" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
+        <method signature="SkillTest.testSortingSkillByCOEDescending()[pri:13, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSortingSkillByCOEDescending" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
+        <method signature="SkillTest.testSortingSkillByNameAscending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSortingSkillByNameAscending" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
+        <method signature="SkillTest.testSortingSkillByNameDescending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSortingSkillByNameDescending" class="com.icreon.res_allocqa.tests.admin.SkillTest"/>
+      </group> <!-- Sorting -->
     </groups>
-    <test name="Login" duration-ms="8818" started-at="2016-10-24T12:51:35Z" finished-at="2016-10-24T12:51:44Z">
+    <test name="Login" duration-ms="11350" started-at="2016-10-25T06:31:09Z" finished-at="2016-10-25T06:31:21Z">
       <class name="com.icreon.res_allocqa.tests.LoginTest">
-        <test-method status="PASS" signature="testInit()[pri:0, instance:com.icreon.res_allocqa.tests.LoginTest@448ff1a8]" name="testInit" is-config="true" duration-ms="6417" started-at="2016-10-24T18:21:35Z" finished-at="2016-10-24T18:21:42Z">
+        <test-method status="PASS" signature="testInit()[pri:0, instance:com.icreon.res_allocqa.tests.LoginTest@448ff1a8]" name="testInit" is-config="true" duration-ms="8259" started-at="2016-10-25T12:01:09Z" finished-at="2016-10-25T12:01:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInit -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.icreon.res_allocqa.tests.LoginTest@448ff1a8]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-10-24T18:21:42Z" finished-at="2016-10-24T18:21:42Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.icreon.res_allocqa.tests.LoginTest@448ff1a8]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-10-25T12:01:18Z" finished-at="2016-10-25T12:01:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testLogin()[pri:1, instance:com.icreon.res_allocqa.tests.LoginTest@448ff1a8]" name="testLogin" duration-ms="2391" started-at="2016-10-24T18:21:42Z" finished-at="2016-10-24T18:21:44Z">
+        <test-method status="PASS" signature="testLogin()[pri:1, instance:com.icreon.res_allocqa.tests.LoginTest@448ff1a8]" name="testLogin" duration-ms="2998" started-at="2016-10-25T12:01:18Z" finished-at="2016-10-25T12:01:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.icreon.res_allocqa.tests.LoginTest@448ff1a8]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-10-24T18:21:42Z" finished-at="2016-10-24T18:21:42Z">
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.icreon.res_allocqa.tests.LoginTest@448ff1a8]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-10-25T12:01:18Z" finished-at="2016-10-25T12:01:18Z">
           <params>
             <param index="0">
               <value>
@@ -44,47 +120,191 @@
         </test-method> <!-- handleTestMethodName -->
       </class> <!-- com.icreon.res_allocqa.tests.LoginTest -->
     </test> <!-- Login -->
-    <test name="Sorting Only" duration-ms="8536" started-at="2016-10-24T12:51:44Z" finished-at="2016-10-24T12:51:53Z">
+    <test name="Sorting Only" duration-ms="180582" started-at="2016-10-25T06:31:21Z" finished-at="2016-10-25T06:34:21Z">
       <class name="com.icreon.res_allocqa.tests.admin.RoleMappingTest">
-        <test-method status="PASS" signature="testRolePagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testRolePagination" duration-ms="2019" started-at="2016-10-24T18:21:49Z" finished-at="2016-10-24T18:21:51Z">
+        <test-method status="PASS" signature="testSearchRoleByName()[pri:2, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSearchRoleByName" duration-ms="3112" started-at="2016-10-25T12:02:26Z" finished-at="2016-10-25T12:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchRoleByName -->
+        <test-method status="PASS" signature="testSearchRoleByEmpID()[pri:3, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSearchRoleByEmpID" duration-ms="3399" started-at="2016-10-25T12:02:29Z" finished-at="2016-10-25T12:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchRoleByEmpID -->
+        <test-method status="PASS" signature="testSearchRoleByStatusActive()[pri:4, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSearchRoleByStatusActive" duration-ms="3224" started-at="2016-10-25T12:02:33Z" finished-at="2016-10-25T12:02:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchRoleByStatusActive -->
+        <test-method status="PASS" signature="testSearchRoleByStatusInactive()[pri:5, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSearchRoleByStatusInactive" duration-ms="3633" started-at="2016-10-25T12:02:36Z" finished-at="2016-10-25T12:02:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchRoleByStatusInactive -->
+        <test-method status="PASS" signature="testSortingRoleByEmpIdAscending()[pri:6, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByEmpIdAscending" duration-ms="4846" started-at="2016-10-25T12:02:40Z" finished-at="2016-10-25T12:02:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingRoleByEmpIdAscending -->
+        <test-method status="PASS" signature="testSortingRoleByEmpIdDescending()[pri:7, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByEmpIdDescending" duration-ms="5919" started-at="2016-10-25T12:02:44Z" finished-at="2016-10-25T12:02:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingRoleByEmpIdDescending -->
+        <test-method status="PASS" signature="testSortingRoleByNameAscending()[pri:8, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByNameAscending" duration-ms="4342" started-at="2016-10-25T12:02:50Z" finished-at="2016-10-25T12:02:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingRoleByNameAscending -->
+        <test-method status="PASS" signature="testSortingRoleByNameDescending()[pri:9, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByNameDescending" duration-ms="5973" started-at="2016-10-25T12:02:55Z" finished-at="2016-10-25T12:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingRoleByNameDescending -->
+        <test-method status="PASS" signature="testSortingRoleByDesignationAscending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByDesignationAscending" duration-ms="4828" started-at="2016-10-25T12:03:01Z" finished-at="2016-10-25T12:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingRoleByDesignationAscending -->
+        <test-method status="PASS" signature="testSortingRoleByDesignationDescending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByDesignationDescending" duration-ms="6030" started-at="2016-10-25T12:03:06Z" finished-at="2016-10-25T12:03:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingRoleByDesignationDescending -->
+        <test-method status="PASS" signature="testSortingRoleByEmailAscending()[pri:12, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByEmailAscending" duration-ms="4743" started-at="2016-10-25T12:03:12Z" finished-at="2016-10-25T12:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingRoleByEmailAscending -->
+        <test-method status="PASS" signature="testSortingRoleByEmailDescending()[pri:13, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testSortingRoleByEmailDescending" duration-ms="5974" started-at="2016-10-25T12:03:16Z" finished-at="2016-10-25T12:03:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingRoleByEmailDescending -->
+        <test-method status="PASS" signature="testRolePagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.RoleMappingTest@290d210d]" name="testRolePagination" duration-ms="2053" started-at="2016-10-25T12:03:22Z" finished-at="2016-10-25T12:03:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRolePagination -->
       </class> <!-- com.icreon.res_allocqa.tests.admin.RoleMappingTest -->
       <class name="com.icreon.res_allocqa.tests.admin.SkillTest">
-        <test-method status="PASS" signature="testCOEPagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testCOEPagination" duration-ms="2442" started-at="2016-10-24T18:21:46Z" finished-at="2016-10-24T18:21:49Z">
+        <test-method status="PASS" signature="testSearchSkillByName()[pri:6, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSearchSkillByName" duration-ms="3786" started-at="2016-10-25T12:01:43Z" finished-at="2016-10-25T12:01:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchSkillByName -->
+        <test-method status="PASS" signature="testSearchSkillByCOE()[pri:7, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSearchSkillByCOE" duration-ms="3437" started-at="2016-10-25T12:01:47Z" finished-at="2016-10-25T12:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchSkillByCOE -->
+        <test-method status="PASS" signature="testSearchByStatusActive()[pri:8, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSearchByStatusActive" duration-ms="3817" started-at="2016-10-25T12:01:51Z" finished-at="2016-10-25T12:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByStatusActive -->
+        <test-method status="PASS" signature="testSearchByStatusAInative()[pri:9, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSearchByStatusAInative" duration-ms="3378" started-at="2016-10-25T12:01:54Z" finished-at="2016-10-25T12:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByStatusAInative -->
+        <test-method status="PASS" signature="testSortingSkillByNameAscending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSortingSkillByNameAscending" duration-ms="5666" started-at="2016-10-25T12:01:58Z" finished-at="2016-10-25T12:02:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingSkillByNameAscending -->
+        <test-method status="PASS" signature="testSortingSkillByNameDescending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSortingSkillByNameDescending" duration-ms="7546" started-at="2016-10-25T12:02:03Z" finished-at="2016-10-25T12:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingSkillByNameDescending -->
+        <test-method status="PASS" signature="testSortingSkillByCOEAscending()[pri:12, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSortingSkillByCOEAscending" duration-ms="5761" started-at="2016-10-25T12:02:11Z" finished-at="2016-10-25T12:02:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingSkillByCOEAscending -->
+        <test-method status="PASS" signature="testSortingSkillByCOEDescending()[pri:13, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testSortingSkillByCOEDescending" duration-ms="7012" started-at="2016-10-25T12:02:17Z" finished-at="2016-10-25T12:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingSkillByCOEDescending -->
+        <test-method status="PASS" signature="testCOEPagination()[pri:14, instance:com.icreon.res_allocqa.tests.admin.SkillTest@4b44655e]" name="testCOEPagination" duration-ms="2571" started-at="2016-10-25T12:02:24Z" finished-at="2016-10-25T12:02:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCOEPagination -->
       </class> <!-- com.icreon.res_allocqa.tests.admin.SkillTest -->
       <class name="com.icreon.res_allocqa.tests.admin.ClientsTest">
-        <test-method status="PASS" signature="testClientPagination()[pri:15, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testClientPagination" duration-ms="2029" started-at="2016-10-24T18:21:51Z" finished-at="2016-10-24T18:21:53Z">
+        <test-method status="PASS" signature="testSearchClientByName()[pri:4, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSearchClientByName" duration-ms="3160" started-at="2016-10-25T12:03:24Z" finished-at="2016-10-25T12:03:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchClientByName -->
+        <test-method status="PASS" signature="testSearchClientByAccOwner()[pri:5, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSearchClientByAccOwner" duration-ms="3720" started-at="2016-10-25T12:03:28Z" finished-at="2016-10-25T12:03:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchClientByAccOwner -->
+        <test-method status="PASS" signature="testSearchClientByCountry()[pri:6, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSearchClientByCountry" duration-ms="4213" started-at="2016-10-25T12:03:31Z" finished-at="2016-10-25T12:03:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchClientByCountry -->
+        <test-method status="PASS" signature="testSearchClientByStatusActive()[pri:7, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSearchClientByStatusActive" duration-ms="3546" started-at="2016-10-25T12:03:35Z" finished-at="2016-10-25T12:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchClientByStatusActive -->
+        <test-method status="PASS" signature="testSearchClientByStatusInactive()[pri:8, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSearchClientByStatusInactive" duration-ms="3989" started-at="2016-10-25T12:03:39Z" finished-at="2016-10-25T12:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchClientByStatusInactive -->
+        <test-method status="PASS" signature="testSortingClientByNameAscending()[pri:9, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSortingClientByNameAscending" duration-ms="5791" started-at="2016-10-25T12:03:43Z" finished-at="2016-10-25T12:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingClientByNameAscending -->
+        <test-method status="PASS" signature="testSortingClientByNameDescending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSortingClientByNameDescending" duration-ms="7077" started-at="2016-10-25T12:03:49Z" finished-at="2016-10-25T12:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingClientByNameDescending -->
+        <test-method status="PASS" signature="testSortingClientByCountryAscending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSortingClientByCountryAscending" duration-ms="5366" started-at="2016-10-25T12:03:56Z" finished-at="2016-10-25T12:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingClientByCountryAscending -->
+        <test-method status="PASS" signature="testSortingClientByCountryDescending()[pri:12, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSortingClientByCountryDescending" duration-ms="7060" started-at="2016-10-25T12:04:01Z" finished-at="2016-10-25T12:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingClientByCountryDescending -->
+        <test-method status="PASS" signature="testSortingClientByAccOwnerAscending()[pri:13, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSortingClientByAccOwnerAscending" duration-ms="4672" started-at="2016-10-25T12:04:08Z" finished-at="2016-10-25T12:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingClientByAccOwnerAscending -->
+        <test-method status="PASS" signature="testSortingClientByAccOwnerDescending()[pri:14, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testSortingClientByAccOwnerDescending" duration-ms="6287" started-at="2016-10-25T12:04:13Z" finished-at="2016-10-25T12:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingClientByAccOwnerDescending -->
+        <test-method status="PASS" signature="testClientPagination()[pri:15, instance:com.icreon.res_allocqa.tests.admin.ClientsTest@1d76aeea]" name="testClientPagination" duration-ms="2067" started-at="2016-10-25T12:04:19Z" finished-at="2016-10-25T12:04:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClientPagination -->
       </class> <!-- com.icreon.res_allocqa.tests.admin.ClientsTest -->
       <class name="com.icreon.res_allocqa.tests.admin.CoeTest">
-        <test-method status="PASS" signature="testCOEPagination()[pri:12, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testCOEPagination" duration-ms="2040" started-at="2016-10-24T18:21:44Z" finished-at="2016-10-24T18:21:46Z">
+        <test-method status="PASS" signature="testSearchCOEByName()[pri:7, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testSearchCOEByName" duration-ms="3966" started-at="2016-10-25T12:01:21Z" finished-at="2016-10-25T12:01:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchCOEByName -->
+        <test-method status="PASS" signature="testSearchByStatusActive()[pri:8, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testSearchByStatusActive" duration-ms="3423" started-at="2016-10-25T12:01:25Z" finished-at="2016-10-25T12:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByStatusActive -->
+        <test-method status="PASS" signature="testSearchByStatusAInative()[pri:9, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testSearchByStatusAInative" duration-ms="3502" started-at="2016-10-25T12:01:28Z" finished-at="2016-10-25T12:01:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByStatusAInative -->
+        <test-method status="PASS" signature="testSortingByCOEAscending()[pri:10, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testSortingByCOEAscending" duration-ms="3969" started-at="2016-10-25T12:01:32Z" finished-at="2016-10-25T12:01:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingByCOEAscending -->
+        <test-method status="PASS" signature="testSortingByCOEDescending()[pri:11, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testSortingByCOEDescending" duration-ms="5588" started-at="2016-10-25T12:01:36Z" finished-at="2016-10-25T12:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingByCOEDescending -->
+        <test-method status="PASS" signature="testCOEPagination()[pri:12, instance:com.icreon.res_allocqa.tests.admin.CoeTest@7ea37dbf]" name="testCOEPagination" duration-ms="2097" started-at="2016-10-25T12:01:41Z" finished-at="2016-10-25T12:01:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCOEPagination -->
       </class> <!-- com.icreon.res_allocqa.tests.admin.CoeTest -->
     </test> <!-- Sorting Only -->
-    <test name="LogOut" duration-ms="1609" started-at="2016-10-24T12:51:53Z" finished-at="2016-10-24T12:51:54Z">
+    <test name="LogOut" duration-ms="1699" started-at="2016-10-25T06:34:21Z" finished-at="2016-10-25T06:34:23Z">
       <class name="com.icreon.res_allocqa.tests.LogoutTest">
-        <test-method status="PASS" signature="runBeforeSuit()[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@402e37bc]" name="runBeforeSuit" is-config="true" duration-ms="7" started-at="2016-10-24T18:21:35Z" finished-at="2016-10-24T18:21:35Z">
+        <test-method status="PASS" signature="runBeforeSuit()[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@402e37bc]" name="runBeforeSuit" is-config="true" duration-ms="6" started-at="2016-10-25T12:01:09Z" finished-at="2016-10-25T12:01:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runBeforeSuit -->
-        <test-method status="PASS" signature="testInit()[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@402e37bc]" name="testInit" is-config="true" duration-ms="0" started-at="2016-10-24T18:21:53Z" finished-at="2016-10-24T18:21:53Z">
+        <test-method status="PASS" signature="testInit()[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@402e37bc]" name="testInit" is-config="true" duration-ms="1" started-at="2016-10-25T12:04:21Z" finished-at="2016-10-25T12:04:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInit -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@402e37bc]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-10-24T18:21:53Z" finished-at="2016-10-24T18:21:53Z">
+        <test-method status="PASS" signature="testLogout()[pri:100, instance:com.icreon.res_allocqa.tests.LogoutTest@402e37bc]" name="testLogout" duration-ms="1697" started-at="2016-10-25T12:04:21Z" finished-at="2016-10-25T12:04:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@402e37bc]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-10-24T18:21:53Z" finished-at="2016-10-24T18:21:53Z">
+        </test-method> <!-- testLogout -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@402e37bc]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-10-25T12:04:21Z" finished-at="2016-10-25T12:04:21Z">
           <params>
             <param index="0">
               <value>
@@ -95,11 +315,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handleTestMethodName -->
-        <test-method status="PASS" signature="testLogout()[pri:100, instance:com.icreon.res_allocqa.tests.LogoutTest@402e37bc]" name="testLogout" duration-ms="1607" started-at="2016-10-24T18:21:53Z" finished-at="2016-10-24T18:21:54Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@402e37bc]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-10-25T12:04:21Z" finished-at="2016-10-25T12:04:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogout -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@402e37bc]" name="quitBrowser" is-config="true" duration-ms="1795" started-at="2016-10-24T18:21:54Z" finished-at="2016-10-24T18:21:56Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.icreon.res_allocqa.tests.LogoutTest@402e37bc]" name="quitBrowser" is-config="true" duration-ms="86" started-at="2016-10-25T12:04:23Z" finished-at="2016-10-25T12:04:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->

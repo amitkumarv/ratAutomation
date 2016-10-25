@@ -1,4 +1,4 @@
-<project name="TestAutomation" default="generateReport" basedir=".">
+<project name="RatAutomation" default="testng-execution" basedir=".">
 	
     <property name="LIB" value="${basedir}/lib" />
     <property name="BIN" value="${basedir}/bin" />
@@ -16,8 +16,7 @@
 	</target>
 	
 	<target name="create" depends="delete-dir">
-		<mkdir dir="screenshot/failed" />
-		<mkdir dir="screenshot/passed" />
+		<mkdir dir="screenshot" />
 	</target>
 	
 	<target name="compile" depends="create">
@@ -32,7 +31,7 @@
 			<xmlfileset dir="${basedir}" includes="testng.xml" />
 		</testng>
 	</target>
-	
+	<!--
     <target name="generateReport" depends="testng-execution">
         <delete dir="${basedir}/testng-xslt">
         </delete>
@@ -47,5 +46,5 @@
             </classpath>
         </xslt>
     </target>
-
+-->
 </project>

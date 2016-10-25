@@ -1,0 +1,158 @@
+[debug (1/4/16 11:51:19 AM)] Debug: setLogFile: /home/amit/AutomationJARS/SikuliX-1.1.0-SetupLog.txt
+[debug (1/4/16 11:51:19 AM)] RunSetup: ... starting with no args given
+[debug (1/4/16 11:51:19 AM)] RunSetup: Setup: 1.1.0 2015-10-06_17:22 in folder:
+/home/amit/AutomationJARS
+[debug (1/4/16 11:51:20 AM)] RunSetup: RunningSystem: Linux 3.13.0-83-generic (0 Ubuntu 14.04)
+[debug (1/4/16 11:51:20 AM)] RunSetup: parent of jar/classes: /home/amit/AutomationJARS
+[debug (1/4/16 11:51:20 AM)] RunSetup: RunningJava: Java 7 (amd64) 1.7.0_95-b00
+[debug (1/4/16 11:51:20 AM)] init user preferences
+[debug (1/4/16 11:52:58 AM)] RunSetup: 
+popAsk: --------------------
+The following file(s) will be downloaded to
+/home/amit/AutomationJARS
+--- Native support libraries for Linux (sikulixlibs...)
+--- Package 2 ---
+sikulixsetupAPI-1.1.0-forsetup.jar (Java API)
+Only click NO, if you want to terminate setup now!
+Click YES even if you want to use local copies in Downloads!
+--------------------
+[debug (1/4/16 11:53:22 AM)] FileManager: Downloading sikulixlibslux-1.1.0.jar having 1288 KB
+[debug (1/4/16 11:53:28 AM)] FileManager: downloaded 1288 KB to:
+/home/amit/.Sikulix/SikulixDownloads_201510061722/sikulixlibslux-1.1.0.jar
+[debug (1/4/16 11:53:28 AM)] FileManager: download time: 4
+[debug (1/4/16 11:53:31 AM)] RunSetup: Copied from Downloads: sikulixlibslux
+[debug (1/4/16 11:53:31 AM)] RunTimeSETUP: addToClasspath:
+file:/home/amit/AutomationJARS/sikulixlibslux.jar
+*** classpath dump sikulix
+  0: /home/amit/AutomationJARS/sikulixsetup-1.1.0.jar
+  1: /home/amit/AutomationJARS/sikulixlibslux.jar
+*** classpath dump end
+[debug (1/4/16 11:53:31 AM)] RunSetup: checking usability of bundled/provided libs
+[debug (1/4/16 11:53:31 AM)] RunTimeSETUP: exists libs folder at: /home/amit/.Sikulix/SikulixLibs_201510061722
+[debug (1/4/16 11:53:31 AM)] RunTimeSETUP: libs folder empty or has wrong content
+[debug (1/4/16 11:53:31 AM)] RunTimeSETUP: now exporting libs
+[debug (1/4/16 11:53:31 AM)] RunTimeSETUP: libs to export are at:
+jar:file:/home/amit/AutomationJARS/sikulixlibslux.jar!/sikulixlibs/linux/libs64
+[debug (1/4/16 11:53:31 AM)] RunTimeSETUP: resourceList: enter
+[debug (1/4/16 11:53:31 AM)] RunTimeSETUP: resourceLocation: (class org.sikuli.setup.RunSetup) /sikulixlibs/linux/libs64
+[debug (1/4/16 11:53:31 AM)] RunTimeSETUP: resourceList: having jar: jar:file:/home/amit/AutomationJARS/sikulixlibslux.jar!/sikulixlibs/linux/libs64
+[debug (1/4/16 11:53:31 AM)] RunTimeSETUP: files exported: 3 from: /sikulixlibs/linux/libs64 to:
+ /home/amit/.Sikulix/SikulixLibs_201510061722
+[error (1/4/16 11:53:31 AM)] RunTimeSETUP: loadLib: libVisionProxy.so not usable: 
+java.lang.UnsatisfiedLinkError: /home/amit/.Sikulix/SikulixLibs_201510061722/libVisionProxy.so: libtesseract.so.3: cannot open shared object file: No such file or directory
+[error (1/4/16 11:53:31 AM)] RunTimeSETUP: loadLib: libVisionProxy.so not usable: 
+java.lang.UnsatisfiedLinkError: /home/amit/.Sikulix/SikulixLibs_201510061722/libVisionProxy.so: libtesseract.so.3: cannot open shared object file: No such file or directory
+[debug (1/4/16 11:53:31 AM)] LinuxSupport: we have to build libVisionProxy.so
+[debug (1/4/16 11:53:31 AM)] LinuxSupport: checking: availability of OpenCV and Tesseract
+[debug (1/4/16 11:53:31 AM)] LinuxSupport: checking: scanning loader cache (ldconfig -p)
+[debug (1/4/16 11:53:31 AM)] RunTimeSETUP: ldconfig -p 
+[debug (1/4/16 11:53:31 AM)] LinuxSupport: checking: found OpenCV libs:
+/usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4
+/usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4
+/usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4
+[debug (1/4/16 11:53:31 AM)] LinuxSupport: checking: found Tesseract lib:
+
+[debug (1/4/16 11:53:31 AM)] RunTimeSETUP: wmctrl -m 
+[debug (1/4/16 11:53:31 AM)] LinuxSupport: checking: wmctrl seems to be available
+[debug (1/4/16 11:53:31 AM)] RunTimeSETUP: xdotool version 
+[error (1/4/16 11:53:31 AM)] RunTimeSETUP: fatal error: java.io.IOException: Cannot run program "xdotool": error=2, No such file or directory
+[error (1/4/16 11:53:31 AM)] LinuxSupport: checking: xdotool not available or not working
+[debug (1/4/16 11:53:31 AM)] LinuxSupport: buildVision: starting inline build: libVisionProxy.so
+[debug (1/4/16 11:53:31 AM)] LinuxSupport: buildVision: java.home from java props: /usr/lib/jvm/java-7-openjdk-amd64/jre
+[debug (1/4/16 11:53:31 AM)] LinuxSupport: buildVision: JAVA_HOME from environment: null
+[debug (1/4/16 11:53:31 AM)] LinuxSupport: buildVision: JDK: found at: /usr/lib/jvm/java-7-openjdk-amd64
+[debug (1/4/16 11:53:32 AM)] LinuxSupport: buildVision: tesseract-include: not found - using the bundled include files
+[debug (1/4/16 11:53:32 AM)] RunTimeSETUP: resourceList: enter
+[debug (1/4/16 11:53:32 AM)] RunTimeSETUP: resourceLocation: (class org.sikuli.setup.RunSetup) /srcnativelibs/Vision
+[debug (1/4/16 11:53:32 AM)] RunTimeSETUP: resourceList: having jar: jar:file:/home/amit/AutomationJARS/sikulixlibslux.jar!/srcnativelibs/Vision
+[debug (1/4/16 11:53:32 AM)] RunTimeSETUP: files exported: 16 from: /srcnativelibs/Vision to:
+ /home/amit/.Sikulix/sikulixlibs/linux/Build/Source
+[debug (1/4/16 11:53:32 AM)] RunTimeSETUP: resourceList: enter
+[debug (1/4/16 11:53:32 AM)] RunTimeSETUP: resourceLocation: (class org.sikuli.setup.RunSetup) /srcnativelibs/Include/Tesseract
+[debug (1/4/16 11:53:32 AM)] RunTimeSETUP: resourceList: having jar: jar:file:/home/amit/AutomationJARS/sikulixlibslux.jar!/srcnativelibs/Include/Tesseract
+[debug (1/4/16 11:53:32 AM)] RunTimeSETUP: files exported: 27 from: /srcnativelibs/Include/Tesseract to:
+ /home/amit/.Sikulix/sikulixlibs/linux/Build/Include
+[debug (1/4/16 11:53:32 AM)] LinuxSupport: **** content of build script:
+#jdkdir=/usr/lib/jvm/java-7-openjdk-amd64
+jdkdir=/usr/lib/jvm/java-7-openjdk-amd64
+
+opencvinclude=
+#opencvlib=/usr/lib/x86_64-linux-gnu
+#opencvcore=$opencvlib/libopencv_core.so.2.4
+opencvcore=/usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4
+#opencvimgproc=$opencvlib/libopencv_imgproc.so.2.4
+opencvimgproc=/usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4
+#opencvhighgui=$opencvlib/libopencv_highgui.so.2.4
+opencvhighgui=/usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4
+
+tesseractinclude=
+#tesseractlib=/usr/lib/libtesseract.so.3
+tesseractlib=
+
+#work=`pwd`
+work=/home/amit/.Sikulix/sikulixlibs/linux/Build
+source=$work/Source
+buildinclude=$work/Include
+build=$work/Target
+stuff=$build/Stuff
+rm -R -f $build
+mkdir $build
+mkdir $stuff
+
+if [ "$opencvinclude" != "" ]; then
+  includeplus="-I$opencvinclude "
+fi
+if [ "$tesseractinclude" != "" ]; then
+  includeplus="$includeplus -I$tesseractinclude "
+fi
+includefinal="-I/usr/include -I/usr/local/include $includeplus -I$buildinclude"
+
+echo ----------- COMPILING
+for mod in cvgui.cpp finder.cpp pyramid-template-matcher.cpp sikuli-debug.cpp \
+  tessocr.cpp vision.cpp visionJAVA_wrap.cxx
+do
+  echo ----- $mod
+  g++ -c -O3 -fPIC -MMD -MP \
+    -I$jdkdir/include \
+    -I$jdkdir/include/linux  \
+    $includefinal \
+    -MF $stuff/$mod.o.d \
+    -o $stuff/$mod.o \
+    $source/$mod
+  mods="$mods $stuff/$mod.o "
+done
+
+echo ----------- LINKING
+g++ -shared -s -fPIC -dynamic $mods \
+  $opencvcore \
+  $opencvimgproc \
+  $opencvhighgui \
+  $tesseractlib \
+  -o $build/libVisionProxy.so
+
+**** content end
+[debug (1/4/16 11:53:32 AM)] LinuxSupport: buildVision: running build script
+[debug (1/4/16 11:53:32 AM)] RunTimeSETUP: /home/amit/.Sikulix/sikulixlibs/linux/runBuild 
+[debug (1/4/16 11:53:53 AM)] LinuxSupport: buildVision: checking created libVisionProxy.so
+[debug (1/4/16 11:53:53 AM)] RunTimeSETUP: ldd -r /home/amit/.Sikulix/sikulixlibs/linux/Build/Target/libVisionProxy.so 
+[error (1/4/16 11:53:54 AM)] LinuxSupport: checking: might not work, has undefined symbols: libVisionProxy.so
+[debug (1/4/16 11:53:54 AM)] LinuxSupport: _ZN9tesseract11TessBaseAPID1Ev:
+[error (1/4/16 11:53:54 AM)] LinuxSupport: ------- output of the build run
+0
+----------- COMPILING
+----- cvgui.cpp
+----- finder.cpp
+----- pyramid-template-matcher.cpp
+----- sikuli-debug.cpp
+----- tessocr.cpp
+----- vision.cpp
+----- visionJAVA_wrap.cxx
+----------- LINKING
+
+[error (1/4/16 11:53:54 AM)] RunTimeSETUP: Problematic lib: /home/amit/.Sikulix/SikulixLibs_201510061722/libVisionProxy.so (...TEMP...)
+[error (1/4/16 11:53:54 AM)] RunTimeSETUP: libVisionProxy.so loaded, but it might be a problem with needed dependent libraries
+ERROR: ...TEMP...: libtesseract.so.3: cannot open shared object file: No such file or directory
+[error (1/4/16 11:53:54 AM)] RunTimeSETUP:  *** terminating: problem with native library: libVisionProxy.so
+[debug (1/4/16 11:53:54 AM)] RunTimeSETUP: final cleanup
+[debug (1/4/16 11:53:54 AM)] FileManager: deleteFileOrFolder:
+/tmp/Sikulix_1827564777

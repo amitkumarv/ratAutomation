@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Sorting Only(failed)">
-    <groups>
-      <run>
-        <include name="Search"/>
-      </run>
-    </groups>
+  <test name="Login(failed)">
     <classes>
+      <class name="com.icreon.res_allocqa.tests.LoginTest">
+        <methods>
+          <include name="testInit"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.icreon.res_allocqa.tests.LoginTest -->
       <class name="com.icreon.res_allocqa.tests.LogoutTest">
         <methods>
           <include name="testInit"/>
@@ -17,18 +18,104 @@
           <include name="beforeClass"/>
         </methods>
       </class> <!-- com.icreon.res_allocqa.tests.LogoutTest -->
+    </classes>
+  </test> <!-- Login(failed) -->
+  <test name="Sorting Only(failed)">
+    <groups>
+      <run>
+        <include name="All"/>
+      </run>
+    </groups>
+    <classes>
       <class name="com.icreon.res_allocqa.tests.LoginTest">
         <methods>
           <include name="testInit"/>
-          <include name="beforeClass"/>
-          <include name="handleTestMethodName"/>
         </methods>
       </class> <!-- com.icreon.res_allocqa.tests.LoginTest -->
+      <class name="com.icreon.res_allocqa.tests.admin.RoleMappingTest">
+        <methods>
+          <include name="testSearchRoleByEmpID"/>
+          <include name="testSortingRoleByNameDescending"/>
+          <include name="testSortingRoleByEmpIdAscending"/>
+          <include name="testSortingRoleByDesignationDescending"/>
+          <include name="testRolePagination"/>
+          <include name="testSearchRoleByStatusInactive"/>
+          <include name="testSortingRoleByNameAscending"/>
+          <include name="testSortingRoleByEmailDescending"/>
+          <include name="testSortingRoleByEmailAscending"/>
+          <include name="testSearchRoleByName"/>
+          <include name="testSortingRoleByDesignationAscending"/>
+          <include name="testSortingRoleByEmpIdDescending"/>
+          <include name="testSearchRoleByStatusActive"/>
+        </methods>
+      </class> <!-- com.icreon.res_allocqa.tests.admin.RoleMappingTest -->
       <class name="com.icreon.res_allocqa.tests.admin.CoeTest">
         <methods>
+          <include name="testSearchByStatusActive"/>
+          <include name="testSearchByStatusAInative"/>
           <include name="testSearchCOEByName"/>
+          <include name="testSortingByCOEDescending"/>
+          <include name="testSortingByCOEAscending"/>
+          <include name="testCOEPagination"/>
         </methods>
       </class> <!-- com.icreon.res_allocqa.tests.admin.CoeTest -->
+      <class name="com.icreon.res_allocqa.tests.LogoutTest">
+        <methods>
+          <include name="testInit"/>
+          <include name="runBeforeSuit"/>
+          <include name="handleTestMethodName"/>
+          <include name="quitBrowser"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.icreon.res_allocqa.tests.LogoutTest -->
+      <class name="com.icreon.res_allocqa.tests.admin.SkillTest">
+        <methods>
+          <include name="testCOEPagination"/>
+          <include name="testSortingSkillByNameAscending"/>
+          <include name="testSearchByStatusAInative"/>
+          <include name="testSearchSkillByCOE"/>
+          <include name="testSearchSkillByName"/>
+          <include name="testSortingSkillByNameDescending"/>
+          <include name="testSortingSkillByCOEAscending"/>
+          <include name="testSortingSkillByCOEDescending"/>
+          <include name="testSearchByStatusActive"/>
+        </methods>
+      </class> <!-- com.icreon.res_allocqa.tests.admin.SkillTest -->
+      <class name="com.icreon.res_allocqa.tests.admin.ClientsTest">
+        <methods>
+          <include name="testSortingClientByAccOwnerDescending"/>
+          <include name="testSearchClientByCountry"/>
+          <include name="testClientPagination"/>
+          <include name="testSearchClientByStatusActive"/>
+          <include name="testSearchClientByAccOwner"/>
+          <include name="testSortingClientByAccOwnerAscending"/>
+          <include name="testSortingClientByNameAscending"/>
+          <include name="testSearchClientByName"/>
+          <include name="testSearchClientByStatusInactive"/>
+          <include name="testSortingClientByNameDescending"/>
+          <include name="testSortingClientByCountryAscending"/>
+          <include name="testSortingClientByCountryDescending"/>
+        </methods>
+      </class> <!-- com.icreon.res_allocqa.tests.admin.ClientsTest -->
     </classes>
   </test> <!-- Sorting Only(failed) -->
+  <test name="LogOut(failed)">
+    <classes>
+      <class name="com.icreon.res_allocqa.tests.LoginTest">
+        <methods>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.icreon.res_allocqa.tests.LoginTest -->
+      <class name="com.icreon.res_allocqa.tests.LogoutTest">
+        <methods>
+          <include name="testLogout"/>
+          <include name="testInit"/>
+          <include name="runBeforeSuit"/>
+          <include name="handleTestMethodName"/>
+          <include name="quitBrowser"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.icreon.res_allocqa.tests.LogoutTest -->
+    </classes>
+  </test> <!-- LogOut(failed) -->
 </suite> <!-- Failed suite [Suite] -->
